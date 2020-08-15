@@ -75,6 +75,22 @@ body{
 	border-color: #ebd0ce;
 }
 
+.bungkus .inp_bungkus  input[type="date"]{
+	width: 350px;
+}
+
+.bungkus  input[type="date"]{
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #9597a6;
+	padding: 10px;
+	outline: none;
+}
+
+.bungkus  input[type="date"]:focus{
+	border-color: #ebd0ce;
+}
+
 .bungkus ul{
 	background: #fff;
 	padding: 8px 10px;

@@ -9,9 +9,8 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="bootstrap-datepicker/css/bootstrap-datepicker.min.css">
-  
-    
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: midnightblue;">

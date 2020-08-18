@@ -30,30 +30,30 @@ $(function() {
                         </div>
                         <div class="inputBungkus">
                             <label for="fname">Alamat</label>
-                            <input type="text" id="fname" name="nama">
+                            <input type="text" id="fname" name="alamat">
                         </div>
                         <div class="inputBungkus">
                             <label for="fname">Nomor Handphone</label>
-                            <input type="text" id="fname" name="nama">
+                            <input type="text" id="fname" name="no_hp">
                         </div>
                         <div class="inputBungkus">
                             <label for="fname">Email</label>
-                            <input type="text" id="fname" name="nama">
+                            <input type="text" id="fname" name="email">
                         </div>
                         <div class="inputBungkus">
                             <label for="fname">Tempat Lahir</label>
-                            <input type="text" id="fname" name="nama">
+                            <input type="text" id="fname" name="tempat_lahir">
                         </div>
                         <div class="inputBungkus">
                             <div class="inp_bungkus">
                                 <div class="inputBungkus">
                                     <label for="datepicker">Tanggal: </label>
-                                    <input type="date" id="datepicker" value="dd-mm-yyyy">
+                                    <input type="date" id="datepicker" value="dd-mm-yyyy" name="tgl">
                                 </div>
                             </div>
                         </div>
                         <div class="inputBungkus">
-                            <label>Gender</label>
+                            <label>Jenis Kelamin</label>
                             <ul>
                                 <li>
                                     <label class="radio_wrap">

@@ -2,8 +2,18 @@
 include ("koneksi.php");
 
 
+$nama = $_POST['nama'];
+$alamat = $_POST['alamat'];
+$no_hp = $_POST['no_hp'];
+$email = $_POST['email'];
+$tempat_lahir = $_POST['tempat_lahir'];
+$jk = $_POST['gender'];
+$jurusan = $_POST['jurusan'];
+$tgl_lahir = $_POST['tgl'];
+$tgl_dftr = date("Y-m-d H:i:s");
+
 $simpan = "INSERT INTO registrasi (`no_pendaftaran`, `nama`, `tempat_lahir`, `tgl_lahir`, `alamat`, `no_hp`, `email`, `tgl_daftar`)
-           VALUES (NULL, 'dadwada', 'wda', '2020-08-03', 'dwa', 'dwadwa', 'dwa', '2020-08-05')";
+           VALUES (NULL, '$nama', '$tempat_lahir', '$tgl_lahir', '$alamat', '$no_hp', '$email', '2020-08-05')";
 
 
 if (mysqli_query($kon, $simpan)) {
@@ -19,5 +29,3 @@ if (mysqli_query($kon, $simpan)) {
 }
 
 ?>
-
-

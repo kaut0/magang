@@ -22,8 +22,13 @@ include ('include/headerAdmin.php');
             <tbody>
                 <?php
                     include ("proses/koneksi.php");
+                    $halaman = 10;
+                    $page = isset($_GET["halaman"]) ? (int)$_GET["halaman"] : 1;
+                    $mulai = ($page>1) ? ($page * $halaman) - $halaman : 0;
                     $fa = "SELECT * FROM faq";
                     $faq = mysqli_query($kon, $fa);
+                    $total = mysqli_num_rows($faq);
+                    $pages = ceil($total/$halaman);
                     $no = 1;
                     foreach ($faq as $f){
                         ?>
@@ -32,10 +37,11 @@ include ('include/headerAdmin.php');
                     <td><?php echo $f['tanya'];?></td>
                     <td><?php echo $f['jawab'];?></td>
                     <td>
-                        <a href="proses/faqHapus.php?id=<?php echo $f['id'];?>" type="button" class="btn btn-danger btn-sm"
-                            onclick="return confirm('Yakin Hapus?')">Hapus</a>
-                        <a href="ubahFaqAdmin.php?id=<?php echo $f['id'];?>" type="button" class="btn btn-warning btn-sm">Ubah</a>
-                    <td/>
+                        <a href="proses/faqHapus.php?id=<?php echo $f['id'];?>" type="button"
+                            class="btn btn-danger btn-sm" onclick="return confirm('Yakin Hapus?')">Hapus</a>
+                        <a href="ubahFaqAdmin.php?id=<?php echo $f['id'];?>" type="button"
+                            class="btn btn-warning btn-sm">Ubah</a>
+                        <td />
                 </tr>
                 <?php
                         $no+=1;
@@ -43,6 +49,11 @@ include ('include/headerAdmin.php');
                     ?>
             </tbody>
         </table>
+        <div class="">
+            <?php for ($i=1; $i<=$pages ; $i++){ ?>
+            <a href="?halaman=<?php echo $i; ?>"><?php echo $i; ?></a>
+            <?php } ?>
+        </div>
     </div>
 </div>
 

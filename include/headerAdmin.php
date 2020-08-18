@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Admin LP3I</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
@@ -46,6 +46,9 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="./AdminRegistrasi.php">Pendaftar</a>
+                </li>
+                <li>
                     <a href="#">About</a>
                 </li>
                 <li>
@@ -85,7 +88,7 @@
                         <i class="fas fa-align-justify"></i>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Page</a>
@@ -100,6 +103,6 @@
                                 <a class="nav-link" href="#">Page</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </nav>

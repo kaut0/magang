@@ -11,7 +11,7 @@ include('include/headerAdmin.php');
                 <thead>
                     <tr>
                         <th>No.</th>
-                        <th>ID Travel</th>
+                        <th>NAMA</th>
                         <th>Nama Mahasiswa</th>
                         <th>Nama Agensi</th>
                         <th>Alamat Agensi</th>

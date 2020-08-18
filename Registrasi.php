@@ -20,7 +20,7 @@ $(function() {
                 <div class="title">
                     Registration Form
                 </div>
-                <form action="" method="POST" enctype="multipart/form-data">
+                <form action="proses/tambahRegis.php" method="POST" enctype="multipart/form-data">
                     <div class="bungkus">
                         <div class="inp_bungkus">
                             <div class="inputBungkus">

@@ -12,6 +12,7 @@ $(function() {
 });
 </script>
 
+<br>
 <div class="row">
     <div class="col-md-4">
         <div class="wrapper">
@@ -19,7 +20,7 @@ $(function() {
                 <div class="title">
                     Registration Form
                 </div>
-                <form>
+                <form action="" method="POST" enctype="multipart/form-data">
                     <div class="bungkus">
                         <div class="inp_bungkus">
                             <div class="inputBungkus">
@@ -28,8 +29,28 @@ $(function() {
                             </div>
                         </div>
                         <div class="inputBungkus">
-                            <label for="datepicker">Tanggal: </label>
-                            <input type="date" id="datepicker" value="dd-mm-yyyy">
+                            <label for="fname">Alamat</label>
+                            <input type="text" id="fname" name="nama">
+                        </div>
+                        <div class="inputBungkus">
+                            <label for="fname">Nomor Handphone</label>
+                            <input type="text" id="fname" name="nama">
+                        </div>
+                        <div class="inputBungkus">
+                            <label for="fname">Email</label>
+                            <input type="text" id="fname" name="nama">
+                        </div>
+                        <div class="inputBungkus">
+                            <label for="fname">Tempat Lahir</label>
+                            <input type="text" id="fname" name="nama">
+                        </div>
+                        <div class="inputBungkus">
+                            <div class="inp_bungkus">
+                                <div class="inputBungkus">
+                                    <label for="datepicker">Tanggal: </label>
+                                    <input type="date" id="datepicker" value="dd-mm-yyyy">
+                                </div>
+                            </div>
                         </div>
                         <div class="inputBungkus">
                             <label>Gender</label>
@@ -49,12 +70,15 @@ $(function() {
                             </ul>
                         </div>
                         <div class="inputBungkus">
-                            <label for="city">City</label>
-                            <input type="text" id="city">
-                        </div>
-                        <div class="inputBungkus">
-                            <label for="country">Country</label>
-                            <input type="text" id="country">
+                            <label>Jurusan</label>
+                            <select type="text" name="jurusan" class="form-control" id="select">
+                                <!-- <input type="text" name="jurusan" class="form-control"> -->
+                                <option>Pilih Jurusan</option>
+                                <option value="S1 ILKOM">S1 ILKOM</option>
+                                <option value="S1 DKV">S1 DKV</option>
+                                <option value="D3 MI">D3 MI</option>
+                                <option value="D3 RPL">D3 RPL</option>
+                            </select>
                         </div>
                         <div class="inputBungkus">
                             <input type="submit" value="Register Now" class="submit_btn">

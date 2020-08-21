@@ -49,7 +49,7 @@
                     <a href="./AdminRegistrasi.php">Pendaftar</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="./AdminPembayaran.php">Pembayaran</a>
                 </li>
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>

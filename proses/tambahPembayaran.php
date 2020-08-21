@@ -6,7 +6,7 @@ $nama = $_POST['nama'];
 //$bukti = mysqli_real_escape_string($kon,$_POST['bukti']);
 
 
-$simpan = "INSERT INTO `pembayaran` (`nama`, `bukti_tf`, `status`) VALUES ('$nama')";
+$simpan = "INSERT INTO `pembayaran` (`nama`, `bukti_tf`, `status`) VALUES ('$nama', '', '')";
 
 if (mysqli_query($kon, $simpan)) {
     echo "<script languange= 'javascript'>

@@ -23,7 +23,7 @@ $(function() {
                     <div class="bungkus">
                         <div class="inp_bungkus">
                             <div class="inputBungkus">
-                                <label for="fname">Nama</label>
+                                <label for="fname">Masukkan Kembali Nama Yang Di Daftarkan</label>
                                 <input type="text" id="fname" name="nama">
                             </div>
                         </div>

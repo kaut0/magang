@@ -57,14 +57,14 @@ $(function() {
                             <ul>
                                 <li>
                                     <label class="radio_wrap">
-                                        <input type="radio" name="gender" value="male" class="input_radio" checked>
-                                        <span>Male</span>
+                                        <input type="radio" name="gender" value="Laki-Laki" class="input_radio" checked>
+                                        <span>Laki-Laki</span>
                                     </label>
                                 </li>
                                 <li>
                                     <label class="radio_wrap">
-                                        <input type="radio" name="gender" value="female" class="input_radio">
-                                        <span>Female</span>
+                                        <input type="radio" name="gender" value="Perempuan" class="input_radio">
+                                        <span>Perempuan</span>
                                     </label>
                                 </li>
                             </ul>

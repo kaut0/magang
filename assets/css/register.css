@@ -5,7 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	list-style: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: new time roman;
 }
 
 body{
@@ -17,7 +17,7 @@ body{
 	display: flex;
 	justify-content: left;
     align-items: center;
-    margin-left: 500px;
+    
 }
 
 .form_regis{

@@ -32,8 +32,16 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="Registrasi.php">Registrasi</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="Pembayaran.php">Pembayaran</a>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pembayaran
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Pembayaran.php">Pembayaran</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Melalui Whatsapp</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

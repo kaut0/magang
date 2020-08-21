@@ -13,7 +13,7 @@ $tgl_lahir = $_POST['tgl'];
 $tgl_dftr = date("Y-m-d H:i:s");
 
 $simpan = "INSERT INTO registrasi (`no_pendaftaran`, `nama`, `tempat_lahir`, `tgl_lahir`, `alamat`, `no_hp`, `email`, `tgl_daftar`)
-           VALUES (NULL, '$nama', '$tempat_lahir', '$tgl_lahir', '$alamat', '$no_hp', '$email', '2020-08-05')";
+           VALUES (NULL, '$nama', '$tempat_lahir', '$tgl_lahir', '$alamat', '$no_hp', '$email', '$tgl_dftr')";
 
 
 if (mysqli_query($kon, $simpan)) {

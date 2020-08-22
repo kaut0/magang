@@ -59,7 +59,7 @@ include ('include/headerAdmin.php');
                     <td><img src="<?php echo $url_gambar;?>"></td>
                     <td><?php echo $pecah['status'] ?></td>
                     <td>
-                        <a href="#" type="button" class="btn btn-warning btn-sm">Detail</a>
+                        <a href="AdminDetailPembayaran.php?nama=<?php echo $pecah['nama'];?>" type="button" class="btn btn-warning btn-sm">Detail</a>
                         <td />
                 </tr>
                 <?php

@@ -31,19 +31,8 @@
 
             <ul class="list-unstyled components">
                 <p>Dummy Heading</p>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
+                <li>
+                    <a href="./AdminHome.php">Home</a>
                 </li>
                 <li>
                     <a href="./AdminRegistrasi.php">Pendaftar</a>
@@ -52,13 +41,7 @@
                     <a href="./AdminPembayaran.php">Pembayaran</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                </li>
-                <li>
                     <a href="./AdminFaq.php">Faq</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
                 </li>
             </ul>
         </nav>

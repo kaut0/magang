@@ -31,13 +31,14 @@ include ('include/headerAdmin.php');
                     $total = mysqli_num_rows($faq);
                     $pages = ceil($total/$halaman);
                     $no = 1;
-                    foreach ($faq as $f){
+                    while ($pecah = mysqli_fetch_array($faq)) {
+                        $url_gambar = "proses/$pecah[bukti_tf]";
                         ?>
                 <tr>
                     <td><?php echo $no ?></td>
-                    <td><?php echo $f['nama'];?></td>
-                    <td><img src="proses/bukti/<?php echo $f['bukti_tf'];?>"></td>
-                    <td><?php echo $f['status'] ?></td>
+                    <td><?php echo $pecah['nama'];?></td>
+                    <td><img src="<?php echo $url_gambar;?>"></td>
+                    <td><?php echo $pecah['status'] ?></td>
                     <td>
                         <a href="#" type="button"
                             class="btn btn-warning btn-sm">Detail</a>
@@ -52,7 +53,7 @@ include ('include/headerAdmin.php');
         <div class="">
             <?php for ($i=1; $i<=$pages ; $i++){ ?>
             <a href="?halaman=<?php echo $i; ?>"><?php echo $i; ?></a>
-            <?php } ?>
+            <?php }?>
         </div>
     </div>
 </div>

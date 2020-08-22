@@ -36,7 +36,7 @@ include ('include/headerAdmin.php');
                 <tr>
                     <td><?php echo $no ?></td>
                     <td><?php echo $f['nama'];?></td>
-                    <td><img src="<?php echo "temp/".$f['bukti_tf']; ?>"></td>
+                    <td><img src="proses/bukti/<?php echo $f['bukti_tf'];?>"></td>
                     <td><?php echo $f['status'] ?></td>
                     <td>
                         <a href="#" type="button"

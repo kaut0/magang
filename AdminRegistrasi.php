@@ -1,10 +1,21 @@
 <?php
+include ("proses/koneksi.php");
 include ('include/headerAdmin.php');
-
 ?>
 
 <div class="container">
     <h4 style="text-align: center">Registrasi</h4>
+    <form action="AdminRegistrasi.php" method="get">
+        <label>Cari :</label>
+        <input type="text" name="cari">
+        <input type="submit" value="Cari">
+    </form>
+    <?php 
+        if(isset($_GET['cari'])){
+            $cari = $_GET['cari'];
+            echo "<b>Hasil pencariaan : ".$cari."</b>";
+        }
+    ?>
     <div class="table-responsive">
         <!-- <button type="button" class="btn btn-success"> -->
         <!-- Tambah Mahasiswa -->
@@ -13,7 +24,7 @@ include ('include/headerAdmin.php');
             <thead>
                 <tr>
                     <th>No.</th>
-                    <th>Nama</th>
+                    <th>nama</th>
                     <th>Alamat</th>
                     <th>Tempat Lahir</th>
                     <th>Tanggal Lahir</th>
@@ -26,7 +37,9 @@ include ('include/headerAdmin.php');
             </thead>
             <tbody>
                 <?php
-                    include ("proses/koneksi.php");
+
+                   
+                //page
                     $halaman = 10;
                     $page = isset($_GET["halaman"]) ? (int)$_GET["halaman"] : 1;
                     $mulai = ($page>1) ? ($page * $halaman) - $halaman : 0;
@@ -34,6 +47,15 @@ include ('include/headerAdmin.php');
                     $faq = mysqli_query($kon, $fa);
                     $total = mysqli_num_rows($faq);
                     $pages = ceil($total/$halaman);
+                //bates
+
+                    if(isset($_GET['cari'])){
+                        $cari = $_GET['cari'];
+                        $faq = mysqli_query($kon, "select * from registrasi where nama like '%".$cari."%'");				
+                    }else{
+                        $faq;		
+                    }
+
                     $no = 1;
                     foreach ($faq as $f){
                         ?>

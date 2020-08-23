@@ -14,11 +14,11 @@
 		<form action="proses/Plogin.php" method="post" onSubmit="return validasi()">
 			<div>
 				<label>Username:</label>
-				<input type="text" name="username" id="username" />
+				<input type="text" name="username" id="username" placeholder="Masukkan Username Anda"/>
 			</div>
 			<div>
 				<label>Password:</label>
-				<input type="password" name="password" id="password" />
+				<input type="password" name="password" id="password" placeholder="Masukkan Password Anda"/>
 			</div>			
 			<div>
 				<input type="submit" value="Login" class="tombol">

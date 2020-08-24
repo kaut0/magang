@@ -1,3 +1,19 @@
+<?php
+
+// session_start();
+// if (!$_SESSION[user_login]) {
+//     echo "<script>
+//     alert('Login Dahulu')
+//     document.location='./login.php'
+//     </script>";
+// }else {
+//     echo "<script>
+//     alert('Login Dahulu')
+//     document.location='./AdminHome.php'
+//     </script>";
+// }
+?>
+
 <html lang="en">
 
 <head>

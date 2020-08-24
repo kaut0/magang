@@ -15,75 +15,78 @@ $(function() {
 <div class="row">
     <div class="col-md-4">
         <div class="wrapper">
-            <div class="form_regis">
-                <div class="title">
-                    Registration Form
-                </div>
-                <form action="proses/tambahRegis.php" method="POST" enctype="multipart/form-data">
-                    <div class="bungkus">
-                        <div class="inp_bungkus">
-                            <div class="inputBungkus">
-                                <label for="fname">Nama</label>
-                                <input type="text" id="fname" name="nama">
-                            </div>
-                        </div>
-                        <div class="inputBungkus">
-                            <label for="fname">Alamat</label>
-                            <input type="text" id="fname" name="alamat">
-                        </div>
-                        <div class="inputBungkus">
-                            <label for="fname">Nomor Handphone</label>
-                            <input type="text" id="fname" name="no_hp">
-                        </div>
-                        <div class="inputBungkus">
-                            <label for="fname">Email</label>
-                            <input type="text" id="fname" name="email">
-                        </div>
-                        <div class="inputBungkus">
-                            <label for="fname">Tempat Lahir</label>
-                            <input type="text" id="fname" name="tempat_lahir">
-                        </div>
-                        <div class="inputBungkus">
+            <div class="container">
+                <div class="form_regis">
+                    <div class="title">
+                        Registration Form
+                    </div>
+                    <form action="proses/tambahRegis.php" method="POST" enctype="multipart/form-data">
+                        <div class="bungkus">
                             <div class="inp_bungkus">
                                 <div class="inputBungkus">
-                                    <label for="datepicker">Tanggal: </label>
-                                    <input type="date" id="datepicker" value="dd-mm-yyyy" name="tgl">
+                                    <label for="fname">Nama</label>
+                                    <input type="text" id="fname" name="nama">
                                 </div>
                             </div>
+                            <div class="inputBungkus">
+                                <label for="fname">Alamat</label>
+                                <input type="text" id="fname" name="alamat">
+                            </div>
+                            <div class="inputBungkus">
+                                <label for="fname">Nomor Handphone</label>
+                                <input type="text" id="fname" name="no_hp">
+                            </div>
+                            <div class="inputBungkus">
+                                <label for="fname">Email</label>
+                                <input type="text" id="fname" name="email">
+                            </div>
+                            <div class="inputBungkus">
+                                <label for="fname">Tempat Lahir</label>
+                                <input type="text" id="fname" name="tempat_lahir">
+                            </div>
+                            <div class="inputBungkus">
+                                <div class="inp_bungkus">
+                                    <div class="inputBungkus">
+                                        <label for="datepicker">Tanggal: </label>
+                                        <input type="date" id="datepicker" value="dd-mm-yyyy" name="tgl">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inputBungkus">
+                                <label>Jenis Kelamin</label>
+                                <ul>
+                                    <li>
+                                        <label class="radio_wrap">
+                                            <input type="radio" name="gender" value="Laki-Laki" class="input_radio"
+                                                checked>
+                                            <span>Laki-Laki</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="radio_wrap">
+                                            <input type="radio" name="gender" value="Perempuan" class="input_radio">
+                                            <span>Perempuan</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="inputBungkus">
+                                <label>Jurusan</label>
+                                <select type="text" name="jurusan" class="form-control" id="select">
+                                    <!-- <input type="text" name="jurusan" class="form-control"> -->
+                                    <option>Pilih Jurusan</option>
+                                    <option value="S1 ILKOM">S1 ILKOM</option>
+                                    <option value="S1 DKV">S1 DKV</option>
+                                    <option value="D3 MI">D3 MI</option>
+                                    <option value="D3 RPL">D3 RPL</option>
+                                </select>
+                            </div>
+                            <div class="inputBungkus">
+                                <input type="submit" value="Register Now" class="submit_btn">
+                            </div>
                         </div>
-                        <div class="inputBungkus">
-                            <label>Jenis Kelamin</label>
-                            <ul>
-                                <li>
-                                    <label class="radio_wrap">
-                                        <input type="radio" name="gender" value="Laki-Laki" class="input_radio" checked>
-                                        <span>Laki-Laki</span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="radio_wrap">
-                                        <input type="radio" name="gender" value="Perempuan" class="input_radio">
-                                        <span>Perempuan</span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="inputBungkus">
-                            <label>Jurusan</label>
-                            <select type="text" name="jurusan" class="form-control" id="select">
-                                <!-- <input type="text" name="jurusan" class="form-control"> -->
-                                <option>Pilih Jurusan</option>
-                                <option value="S1 ILKOM">S1 ILKOM</option>
-                                <option value="S1 DKV">S1 DKV</option>
-                                <option value="D3 MI">D3 MI</option>
-                                <option value="D3 RPL">D3 RPL</option>
-                            </select>
-                        </div>
-                        <div class="inputBungkus">
-                            <input type="submit" value="Register Now" class="submit_btn">
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

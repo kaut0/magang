@@ -15,15 +15,17 @@ $(function() {
 <div class="row">
     <div class="col-md-4">
         <div class="wrapper">
-            <div class="form_regis">
-                <div class="title">
-                    FAQ (Fast Answer Question)
-                </div>
-                <form action="proses/tambahPembayaran.php" method="POST" enctype="multipart/form-data">
-                    <div class="bungkus">
-                        
+            <div class="container">
+                <div class="form_regis">
+                    <div class="title">
+                        FAQ (Fast Answer Question)
                     </div>
-                </form>
+                    <form action="proses/tambahPembayaran.php" method="POST" enctype="multipart/form-data">
+                        <div class="bungkus">
+
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

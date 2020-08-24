@@ -37,11 +37,10 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
+                <h3>LP3I</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
                 <li>
                     <a href="./AdminHome.php">Home</a>
                 </li>
@@ -53,6 +52,9 @@
                 </li>
                 <li>
                     <a href="./AdminFaq.php">Faq</a>
+                </li>
+                <li>
+                    <a href="./AdminAnggota.php">Tambah Anggota</a>
                 </li>
             </ul>
         </nav>

@@ -15,10 +15,10 @@ include('include/headerAdmin.php');
         ?>
         <form action="proses/faqUbah.php" method="POST" enctype="multipart/form-data">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-8">
                     <label>Pertanyaan</label>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-8">
                     <input type="hidden" name="id" value="<?php echo $s['id']; ?>">
                     <input name="pertanyaan" type="text" class="form-control" cols="30" rows="10"
                         value="<?php echo $s['tanya'] ?>"></input>
@@ -26,10 +26,10 @@ include('include/headerAdmin.php');
             </div>
             <br>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-8">
                     <label>Jawaban</label>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-8">
                     <input name="jawaban" type="text" class="form-control" cols="30" rows="10"
                         value="<?php echo $s['jawab'] ?>"></input>
                 </div>

@@ -19,13 +19,13 @@ include('include/headerAdmin.php');
                 </div>
                 <div class="col-sm-6">
                     <input name="nama" type="text" class="form-control" cols="30" rows="10"
-                        value="<?php echo $s['nama'] ?>"></input>
+                        value="<?php echo $s['nama'] ?>" readonly></input>
                 </div>
                 <div class="col-sm-8">
                     <label>Status</label>
                     <select type="text" name="status" class="form-control" id="select">
                         <!-- <input type="text" name="jurusan" class="form-control"> -->
-                        <option>Pilih Jurusan</option>
+                        <option>Detail Pembayaran</option>
                         <option value="Sudah Bayar">Sudah Bayar</option>
                         <option value="Belum Bayar">Belum Bayar</option>
                     </select>

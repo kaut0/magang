@@ -1,18 +1,12 @@
-<?php
-
-// session_start();
-// if (!$_SESSION[user_login]) {
-//     echo "<script>
-//     alert('Login Dahulu')
-//     document.location='./login.php'
-//     </script>";
-// }else {
-//     echo "<script>
-//     alert('Login Dahulu')
-//     document.location='./AdminHome.php'
-//     </script>";
-// }
-?>
+<?php 
+	session_start();
+ 
+	// cek apakah yang mengakses halaman ini sudah login
+	if($_SESSION['level']==""){
+		header("location:./login.php?pesan=gagal");
+	}
+ 
+	?>
 
 <html lang="en">
 
@@ -38,7 +32,8 @@
 </head>
 
 <body>
-<div class="wrapper">
+
+    <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
@@ -72,7 +67,9 @@
                         <i class="fas fa-align-left"></i>
                         <span>Toggle Sidebar</span>
                     </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
 

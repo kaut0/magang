@@ -10,6 +10,11 @@ body{
   background-color: whitesmoke;
   font-family: new time roman;
 }
+p{
+  font-size: 17px;
+  color:black;
+  
+}
 </style>
 
 

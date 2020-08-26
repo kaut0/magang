@@ -9,6 +9,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -44,9 +45,16 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="Pembayaran.php">Pembayaran</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item"
-                                href="https://api.whatsapp.com/send?phone=6285237238085
-                                &text=Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera.">Melalui
+                            <a class="dropdown-item fa fa-whatsapp"  href="https://api.whatsapp.com/send?phone=6285237238085
+                                &text=Pendaftaran%20Melalui%20WhatsApp.%0A
+                                NAMA%20:%20%0A
+                                ALAMAt%20:%20%0A
+                                NO.HANDPHONE%20:%20%0A
+                                E-Mail%20:%20%0A
+                                TEMPAT%20LAHIR%20:%20%0A
+                                TANGGAL%20LAHIR%20:%20%0A
+                                Jenis%20KELAMIN%20:%20%0A
+                                JURUSAN%20:%20%0A">Melalui
                                 Whatsapp</a>
                         </div>
                     </li>

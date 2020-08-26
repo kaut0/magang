@@ -1,6 +1,8 @@
 <?php
     include ('include/header.php');
 ?>
+<link href="assets/css/slide.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <main role="main">
     <section class="jumbotron text-left text-white gambar">
@@ -14,14 +16,14 @@
             </p>
         </div>
     </section>
-    <br />
+
     <div class="container mb">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" style="border:2px">
                 <div class="card mb-4 shadow-sm">
                     <img src="assets/gambar/slide1.jpg" width="100%" height="225">
                     <div class="card-body">
-                        <p class="card-text" style = "color:black">
+                        <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
                             lead-in to additional content. This content is a little bit
                             longer.
@@ -39,7 +41,7 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="assets/gambar/slide1.jpg" width="100%" height="225">
                     <div class="card-body">
-                        <p class="card-text" style = "color:black">
+                        <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
                             lead-in to additional content. This content is a little bit
                             longer.
@@ -57,7 +59,7 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="assets/gambar/slide1.jpg" width="100%" height="225">
                     <div class="card-body">
-                        <p class="card-text" style = "color:black">
+                        <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
                             lead-in to additional content. This content is a little bit
                             longer.
@@ -72,12 +74,43 @@
                 </div>
             </div>
         </div>
+
+        <div class="slideshow-container">
+            <center><b>
+                    <P style="color:black">Kegiatan Yang Ada</P>
+                </b></center>
+            <div class="mySlides w3-animate-right">
+                <div class="numbertext">1 / 3</div>
+                <img src="assets/gambar/slide1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides w3-animate-right">
+                <div class="numbertext">2 / 3</div>
+                <img src="assets/gambar/slide2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides w3-animate-right">
+                <div class="numbertext">3 / 3</div>
+                <img src="assets/gambar/slide3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
     </div>
+    </div>
+
 </main>
-<script>
-</script>
 
 </html>
+
+<script src="assets/js/slide.js"></script>
 <?php
 include ('include/footer.php');
 ?>

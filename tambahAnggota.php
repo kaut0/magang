@@ -31,7 +31,7 @@ include('include/headerAdmin.php');
                         <!-- <input type="text" name="jurusan" class="form-control"> -->
                         <option>Pilih</option>
                         <option value="Admin">Admin</option>
-                        <option value="Petugas">Petugas</option>
+                        <option value="Pegawai">Pegawai</option>
                     </select>
                 </div>
             </div>

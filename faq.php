@@ -1,5 +1,7 @@
 <?php 
     include ('include/header.php');
+    include ("proses/koneksi.php");
+    error_reporting(0); 
 ?>
 <link href="assets/css/register.css" type="text/css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -12,23 +14,37 @@ $(function() {
 });
 </script>
 <br>
-<div class="row">
-    <div class="col-md-4">
-        <div class="wrapper">
-            <div class="container">
-                <div class="form_regis">
-                    <div class="title">
-                        FAQ (Fast Answer Question)
-                    </div>
-                    <form action="proses/tambahPembayaran.php" method="POST" enctype="multipart/form-data">
-                        <div class="bungkus">
-
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+<div class="form_regis">
+    <div class="title">
+        FAQ (Fast Answer Question)
     </div>
+    <form action="proses/tambahPembayaran.php" method="POST" enctype="multipart/form-data">
+        <div class="bungkus">
+            <?php
+                                try {
+                                    $id = $_GET['id'];
+                                    $query = "SELECT * FROM faq WHERE id = $id";
+                                    $hasil = mysqli_query($kon, $query);
+                                    $data = mysqli_fetch_array($hasil);
+                                    echo "<p>Pertanyaan : ".$data['tanya']."</p>";  
+                                    echo "<p>Jawaban : ".$data['jawab']."</p>";  
+                                    
+                                    // menampilkan daftar FAQ 
+                                    $query = "SELECT * FROM faq";
+                                    $hasil = mysqli_query($kon ,$query);
+                                    echo "<ul>";
+                                    while ($data = mysqli_fetch_array($hasil))
+                                    {
+                                    echo "<li><a href='".$_SERVER['PHP_SELF']."?id=".$data['id']."'>".$data['tanya']."</a></li>";
+                                    }
+                                    echo "</ul>";
+                                } catch (\Throwable $th) {
+                                    
+                                }
+                                
+                                ?>
+        </div>
+    </form>
 </div>
 <br>
 <?php 

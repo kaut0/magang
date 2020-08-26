@@ -9,23 +9,24 @@
 }
 
 body{
-	background: #84889c;
+	background: whitesmoke;
 }
  
 .wrapper{
 	min-height: 100vh;
 	display: flex;
 	justify-content: left;
-    align-items: center;
-
+	align-items: center;
+	margin: 0px auto;
 }
 
 .form_regis{
-	background: #545871;
+	background: blue;
 	padding: 25px;
 	border-radius: 5px;
 	width: 400px;
-	margin-left: 500px;
+	margin: 0px auto;
+	/* margin-left: 500px; */
 }
 
 .form_regis .title{
@@ -155,24 +156,3 @@ body{
 .inputBungkus option{
 	background: #fff;
 }
-@media screen and (min-width: 450px) {
-	.wrapper .form_regis .container{
-		width: 50%
-	}
- }
-  
- /*untuk layar device berukuran sedang*/
- @media screen and (min-width: 550px) {
-	.wrapper .form_regis .container{
-		width: 50%
-	}
- }
-  
- /*untuk layar device berukuran besar*/
- @media screen and (min-width: 800px) {
-	.container {
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
- }

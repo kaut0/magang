@@ -18,7 +18,7 @@ $(function() {
     <div class="title">
         FAQ (Fast Answer Question)
     </div>
-    <form action="proses/tambahPembayaran.php" method="POST" enctype="multipart/form-data">
+    <form>
         <div class="bungkus">
             <?php
                                 try {
@@ -39,7 +39,7 @@ $(function() {
                                     }
                                     echo "</ul>";
                                 } catch (\Throwable $th) {
-                                    
+                                    echo 'Caught exception: ',  $th->getMessage(), "\n";
                                 }
                                 
                                 ?>

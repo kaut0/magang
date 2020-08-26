@@ -45,7 +45,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="Pembayaran.php">Pembayaran</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item fa fa-whatsapp"  href="https://api.whatsapp.com/send?phone=6285237238085
+                            <a class="dropdown-item fa fa-whatsapp" href="https://api.whatsapp.com/send?phone=6285237238085
                                 &text=Pendaftaran%20Melalui%20WhatsApp.%0A
                                 NAMA%20:%20%0A
                                 ALAMAt%20:%20%0A
@@ -65,7 +65,8 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="faq.php">FAQ</a>
-                            <a class="dropdown-item" href="#">Bantuan Penggunaan</a>
+                            <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6285237238085">Contact
+                                Us</a>
                         </div>
                     </li>
                     <li class="nav-item active">

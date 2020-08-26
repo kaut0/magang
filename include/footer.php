@@ -1,11 +1,12 @@
+<link href="./assets/css/style.css" type="text/css" rel="stylesheet" />
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
 <br />
-<footer class="text-muted py-5" style="background-color: midnightblue;">
+<footer class="text-muted py-5" style="background-color: midnightblue;" id="foot">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 foot1">
                 <h3><img src="./assets/gambar/logo.png" height="70px" width="100px"></h3>
                 <p>Lorem ipsum dolor sit</p>
             </div>
@@ -45,7 +46,7 @@
             <div class="col-md-12 text-center">
                 <p>
                     <small class="block">&copy; 2020 LP3I COURSE CENTER. All Rights Reserved.</small>
-                    <small class="block">Designed by <a href="#" target="_blank">Makan</a>
+                    <small class="block">Designed by <a href="" target="_blank">Zilullah Nazir Hadi</a>
                 </p>
                 <p>
                     <ul>

@@ -21,10 +21,8 @@
 
 <script>
 document.onkeyup = function(e) {
-    if (e.ctrlKey && e.which == 65) {
-        setTimeout('self.location.href="./AdminHome.php"', 0);
-    }elseif(e.ctrlKey && e.which == 80){
-        setTimeout('self.location.href="./PegawaiHome.php"', 0);
+    if (e.ctrlKey && e.which == 77) {
+        setTimeout('self.location.href="./Login.php"', 0);
     }
 };
 </script>

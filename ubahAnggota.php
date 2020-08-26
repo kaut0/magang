@@ -11,15 +11,14 @@ include('include/headerAdmin.php');
         $sql = mysqli_query($kon,"select * from user where id_user='$id'");
         //conver sql to array
         while ($s = mysqli_fetch_array($sql)) {
-            
         ?>
-        <form action="proses/faqUbah.php" method="POST" enctype="multipart/form-data">
+        <form action="proses/ubahAnggota.php" method="POST" enctype="multipart/form-data">
             <div class="row">
                 <div class="col-sm-8">
                     <label>username</label>
                 </div>
                 <div class="col-sm-8">
-                    <input type="hidden" name="id" value="<?php echo $s['id']; ?>">
+                    <input type="hidden" name="id_user" value="<?php echo $s['id_user']; ?>">
                     <input name="username" type="text" class="form-control" cols="30" rows="10"
                         value="<?php echo $s['username'] ?>"></input>
                 </div>

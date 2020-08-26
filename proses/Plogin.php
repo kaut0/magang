@@ -30,21 +30,12 @@ if($cek > 0){
 		header("location:../AdminHome.php");
 
 	// cek jika user login sebagai pegawai
-	// }else if($data['level']=="pegawai"){
-	// 	// buat session login dan username
-	// 	$_SESSION['username'] = $username;
-	// 	$_SESSION['level'] = "pegawai";
-	// 	// alihkan ke halaman dashboard pegawai
-	// 	header("location:halaman_pegawai.php");
-
-	// // cek jika user login sebagai pengurus
-	// }else if($data['level']=="pengurus"){
-	// 	// buat session login dan username
-	// 	$_SESSION['username'] = $username;
-	// 	$_SESSION['level'] = "pengurus";
-	// 	// alihkan ke halaman dashboard pengurus
-	// 	header("location:halaman_pengurus.php");
-
+	}else if($data['level']=="pegawai"){
+		// buat session login dan username
+		$_SESSION['username'] = $username;
+		$_SESSION['level'] = "pegawai";
+		// alihkan ke halaman dashboard pegawai
+		header("location:../PegawaiHome.php");
 	}else{
 		// alihkan ke halaman login kembali
 		header("location:../login.php?pesan=gagal");

@@ -20,8 +20,8 @@
     <div class="container mb">
         <div class="row">
             <div class="col-md-4" style="border:2px">
-                <div class="card mb-4 shadow-sm">
-                    <img src="assets/gambar/slide1.jpg" width="100%" height="225">
+                <div class="card mb-4 shadow-sm" style="radius:20px">
+                    <img src="assets/gambar/komputer.jpg" width="100%" height="225">
                     <div class="card-body">
                         <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
@@ -39,7 +39,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="assets/gambar/slide1.jpg" width="100%" height="225">
+                    <img src="assets/gambar/accounting.jpg" width="100%" height="225">
                     <div class="card-body">
                         <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
@@ -57,7 +57,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="assets/gambar/slide1.jpg" width="100%" height="225">
+                    <img src="assets/gambar/english.jpg" width="100%" height="225">
                     <div class="card-body">
                         <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural

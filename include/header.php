@@ -66,8 +66,6 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="faq.php">FAQ</a>
                             <a class="dropdown-item" href="#">Bantuan Penggunaan</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Info Lebih</a>
                         </div>
                     </li>
                     <li class="nav-item active">

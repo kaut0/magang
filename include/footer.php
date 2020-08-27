@@ -2,12 +2,6 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<style type="text/css">
-    a{
-        color: white;
-    }
-</style>
-
 <br />
 <footer class="text-muted py-5" style="background-color: midnightblue;" id="foot">
     <div class="container">
@@ -18,32 +12,20 @@
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" style="color:white">About</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">Contact</a></li>
                 </ul>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" style="color:white">About</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">Contact</a></li>
                 </ul>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" style="color:white">About</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -56,10 +38,9 @@
                 </p>
                 <p>
                     <ul>
-                        <li><a href="#"><i class="fa fa-twitter">LP3I COURSE CENTER</i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook">LP3I COURSE CENTER</i></a></li>
-                        <li><a href="#"><i class="fa fa-whatsapp">LP3I COURSE CENTER</i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube">LP3I COURSE CENTER</i></a></li>
+                        <li><a href="https://web.facebook.com/lcc.praya" style="color:white"><i class="fa fa-facebook">LP3I COURSE CENTER</i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white"><i class="fa fa-whatsapp">LP3I COURSE CENTER</i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1fKC1vSEVXVuf3d-fmd5iQ" style="color:white"><i class="fa fa-youtube">LP3I COURSE CENTER</i></a></li>
                     </ul>
                 </p>
             </div>

@@ -19,9 +19,9 @@
 
     <div class="container mb">
         <div class="row">
-            <div class="col-md-4" style="border:2px">
-                <div class="card mb-4 shadow-sm" style="radius:20px">
-                    <img src="assets/gambar/komputer.jpg" width="100%" height="225">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm" style="border-radius:25px">
+                    <img src="assets/gambar/komputer.jpg" width="100%" height="225" style="border-radius:25px">
                     <div class="card-body">
                         <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
@@ -38,8 +38,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <img src="assets/gambar/accounting.jpg" width="100%" height="225">
+                <div class="card mb-4 shadow-sm" style="border-radius:25px">
+                    <img src="assets/gambar/accounting.jpg" width="100%" height="225" style="border-radius:25px">
                     <div class="card-body">
                         <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
@@ -56,8 +56,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <img src="assets/gambar/english.jpg" width="100%" height="225">
+                <div class="card mb-4 shadow-sm" style="border-radius:25px">
+                    <img src="assets/gambar/english.jpg" width="100%" height="225" style="border-radius:25px">
                     <div class="card-body">
                         <p class="card-text" style="color:black">
                             This is a wider card with supporting text below as a natural
@@ -82,19 +82,19 @@
             <div class="mySlides w3-animate-right">
                 <div class="numbertext">1 / 3</div>
                 <img src="assets/gambar/slide1.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
+                <div class="text">Pembelajaran yang tersedia</div>
             </div>
 
             <div class="mySlides w3-animate-right">
                 <div class="numbertext">2 / 3</div>
                 <img src="assets/gambar/slide2.jpg" style="width:100%">
-                <div class="text">Caption Two</div>
+                <div class="text">Pembelajaran yang tersedia</div>
             </div>
 
             <div class="mySlides w3-animate-right">
                 <div class="numbertext">3 / 3</div>
                 <img src="assets/gambar/slide3.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
+                <div class="text">Pembelajaran yang tersedia</div>
             </div>
         </div>
         <br>

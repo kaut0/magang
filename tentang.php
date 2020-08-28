@@ -2,15 +2,19 @@
     include ('include/header.php');
 ?>
 <style type="text/css">
-img {
-    height: 300px;
-    width: 300px;
-}
-body{
-  background-color: whitesmoke;
-  font-family: new time roman;
+.foto img {
+    max-height: 300px;
+    max-width: 300px;
 }
 
+body {
+    background-color: whitesmoke;
+    font-family: new time roman;
+}
+
+hr.solid {
+  border-top: 18px solid #bbb;
+}
 </style>
 
 <main role="main">
@@ -21,81 +25,58 @@ body{
     </section>
     <br />
     <div class="container mb">
-        <div class="row">
-            <h2>Apa Itu LP3I Course Center (LCC)?</h2>
-            <p style="color:black;">Institusi pendidikan vokasi bisnis dan teknologi yang sudah ada di Indonesia sejak 31 tahun yang lalu.
-                LP3I Course Center (LCC) memiliki dua jenis sub-institusi yaitu College yang menaungi Pendidikan 2 Tahun Siap Kerja dan
-                Politeknik yang menaungi pendidikan jenjang D3 & D4. Saat ini LP3I Course Center (LCC) terdapat di 48 titik dan tersebar di
-                hampir semua provinsi seluruh Indonesia.</p>
-            <br>
-            <h2>Apa Itu Vokasi?</h2>
-            <p style="color:black">
-                Pendidikan vokasi adalah pendidikan tinggi yang menunjang pada penguasaan keahlian terapan. Lulusan
-                pendidikan vokasi akan mendapatkan gelar vokasi/gelar ahli madya.
-            </p>
-            <br>
-            <h2>Pendidikan vokasi di LP3I Course Center (LCC) seperti apa?</h2>
-            <p style="color:black">Pendidikan di LP3I Course Center (LCC) memiliki fokus kepada latihan berbasis praktek (70% praktek, 30% teori) dan penempatan
-                kerja. Program penempatan kerja kami salah satu yang terbaik di Indonesia. Di LP3I Course Center (LCC), mahasiswa
-                berkualitas yang performanya sesuai persyaratan akan dibantu penempatan kerja hingga duduk di
-                perusahaan. </p>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h1>Sambutan</h1>
-                <img src="assets/gambar/coba test.JPG">
-                <p style="color:black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, doloremque culpa ut distinctio
-                    odio labore, ratione velit perferendis, voluptas earum suscipit provident? Architecto quae deleniti
-                    doloremque magni nemo numquam qui!</p>
+        <div class="container">
+            <div class="row">
+                <h2>PROFILE USAHA</h2>
+                <p style="color:black;" style="text-align: justify;">
+                    LP3I COURSE CENTER PRAYA adalah salah satu divisi yang berada dalam naungan LP3I Group yang
+                    berfungsi
+                    sebagai Training Center, yang meliputi Inhouse Training, Outbound Training, Public Workshop,
+                    Strategic
+                    Planning, Research & Management Consulting.
+                    <br>
+                    Salah satu alat dan modal utama untuk mencapai visi & misi perusahaan adalah Sumber Daya Manusia
+                    (SDM)
+                    yang dimiliki yaitu SDM yang mampu menjalankan peran dan fungsinya dengan baik dan benar. SDM
+                    merupakan
+                    satu-satunya asset yang independent dan dinamis sehingga SDM dapat menjadi asset yang potensial
+                    hanya
+                    jika dikelola dan dikembangkan dengan cara yang baik.
+                    <br>
+                    LP3I COURSE CENTER PRAYA merupakan institusi yang concern menerapkan pengetahuan ”Rahasia” positive
+                    thinking dan positive feeling yang mampu merubah SDM perusahaan. Dengan perpaduan dua ”Rahasia”
+                    tersebut
+                    dapat membantu meningkatkan percepatan kompetensi SDM.
+                    Skala prioritas LP3I COURSE CENTER PRAYA adalah untuk meningkatkan kinerja SDM melalui program
+                    pelatihan
+                    yang sesuai dengan kebutuhan karyawan, sistematis dan berkesinambungan. LP3I COURSE CENTER PRAYA
+                    juga
+                    membantu perusahaan mempersiapkan riset-riset manajemen yang aplicable melalui metodologi yang
+                    tepat.
+                </p>
+                <br>
+                <hr class="solid">
+                <h2>VISI DAN MISI</h2>
+                <p style="color:black">
+                    Menjadi Pusat Training dan Manajemen yang dapat mendukung dan mendorong percepatan kompetensi SDM
+                    perusahaan
+                </p>
+                <p style="color:black">
+                    Merancang dan menyusun sistem diklat yang sesuai kebutuhan perusahaan <br>
+                    Mengembangkan jejaring bisnis dalam rangka membangun kompetensi SDM dan organisasi <br>
+                    Mengembangkan pengetahuan terapan berdasarkan konsep yang aplikatif melalui diklat yang terpadu dan
+                    cocok bagi perusahaan untuk meningkatkan skill, knowledge dan attitude <br>
+                    Menyebarluaskan dan menerapkan pengetahuan aplikatif dalam rangka menyempurnakan proses pembelajaran
+                    yang ada di lingkungan perusahaan <br>
+                    Memotivasi karyawan agar terus melakukan yang terbaik sesuai potensi dan kemampuan yang dimiliki
+                    karyawan melalui diklat, coaching dan counselling yang applicable <br>
+                    Membantu Perusahaan dalam pengadaan SDM berkualitas, professional dan berbasiskan kompetensi diri
+                    <br>
+                    Membantu Perusahaan mempersiapkan riset-riset manajemen yang aplicable melalui metodologi yang tepat
+
+                </p>
+                <br>
             </div>
-            <div class="col-md-6">
-                <h1></h1>
-                <p style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic eos voluptatibus officia aut excepturi
-                    doloribus ad praesentium sed ducimus reprehenderit laboriosam veniam saepe fugiat architecto,
-                    quisquam obcaecati quos voluptate rerum.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h1>Sambutan</h1>
-                <img src="assets/gambar/coba test.JPG">
-                <p style="color:black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, doloremque culpa ut distinctio
-                    odio labore, ratione velit perferendis, voluptas earum suscipit provident? Architecto quae deleniti
-                    doloremque magni nemo numquam qui!</p>
-            </div>
-            <div class="col-md-6">
-                <h1></h1>
-                <p style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic eos voluptatibus officia aut excepturi
-                    doloribus ad praesentium sed ducimus reprehenderit laboriosam veniam saepe fugiat architecto,
-                    quisquam obcaecati quos voluptate rerum.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h1>Sambutan</h1>
-                <img src="assets/gambar/coba test.JPG">
-                <p style="color:black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, doloremque culpa ut distinctio
-                    odio labore, ratione velit perferendis, voluptas earum suscipit provident? Architecto quae deleniti
-                    doloremque magni nemo numquam qui!</p>
-            </div>
-            <div class="col-md-6">
-                <h1></h1>
-                <p style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic eos voluptatibus officia aut excepturi
-                    doloribus ad praesentium sed ducimus reprehenderit laboriosam veniam saepe fugiat architecto,
-                    quisquam obcaecati quos voluptate rerum.</p>
-            </div>
-        </div>
-        <div class="row">
-            <h1>Visi</h1>
-            <p style="color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores tempore quae, animi, quam
-                eveniet placeat praesentium temporibus aliquid, dolorum minima provident veniam repudiandae vitae
-                laborum perspiciatis. Accusantium, rem laboriosam.</p>
-        </div>
-        <div class="row">
-            <h1>Misi</h1>
-            <p style="color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores tempore quae, animi, quam
-                eveniet placeat praesentium temporibus aliquid, dolorum minima provident veniam repudiandae vitae
-                laborum perspiciatis. Accusantium, rem laboriosam.</p>
         </div>
     </div>
 </main>

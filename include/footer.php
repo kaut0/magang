@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <br />
-<footer class="text-muted py-5" style="background-color: midnightblue;" id="foot">
+<footer class="text-muted py-5" style="background-color: cadetblue;" id="foot">
     <div class="container">
         <div class="row">
             <div class="col-md-4 foot1">

@@ -18,7 +18,7 @@
 
     <!-- end of hot key -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: midnightblue;">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: cadetblue;">
             <a class="navbar-brand" href="index.php">
                 <div class="logo">
                     <img src="./assets/gambar/logo.png" alt="" srcset="" />
@@ -31,18 +31,18 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item active" style="font-size:15px">
                         <a class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active" style="font-size:15px">
                         <a class="nav-link" href="Registrasi.php">Registrasi</a>
                     </li>
-                    <li class="nav-item dropdown active">
+                    <li class="nav-item dropdown active" style="font-size:15px">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Pembayaran
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-size:15px">
                             <a class="dropdown-item" href="Pembayaran.php">Pembayaran</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item fa fa-whatsapp" href="https://api.whatsapp.com/send?phone=6285237238085

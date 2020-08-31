@@ -70,10 +70,11 @@ $(function() {
                 <select type="text" name="jurusan" class="form-control" id="select">
                     <!-- <input type="text" name="jurusan" class="form-control"> -->
                     <option>Pilih Jurusan</option>
-                    <option value="S1 ILKOM">S1 ILKOM</option>
-                    <option value="S1 DKV">S1 DKV</option>
-                    <option value="D3 MI">D3 MI</option>
-                    <option value="D3 RPL">D3 RPL</option>
+                    <option value="KOMPUTER">KOMPUTER</option>
+                    <option value="ENGLISH">ENGLISH</option>
+                    <option value="ACCOUNTING">ACCOUNTING</option>
+                    <option value="GROUND STAFF & TOUR TRAVELING">GROUND STAFF & TOUR TRAVELING</option>
+                    <option value="TEKNIK PENDINGIN">TEKNIK PENDINGIN</option>
                 </select>
             </div>
             <div class="inputBungkus">

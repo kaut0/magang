@@ -10,7 +10,7 @@
                 <p>
                     <small class="block">&copy; 2020 LP3I COURSE CENTER. All Rights Reserved.</small>
                     <small class="block">Designed by <a href="https://www.facebook.com/zil.I3lack/"
-                            target="_blank">Zilullah Nazir Hadi</a>
+                            target="_blank" style="color:white"><u>Zilullah Nazir Hadi</u></a>
                 </p>
                 <p>
                     <ul>

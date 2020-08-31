@@ -6,40 +6,23 @@
 <footer class="text-muted py-5" style="background-color: cadetblue;" id="foot">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 foot1">
-                <h2><img src="./assets/gambar/logo.png" height="70px" width="100px"></h2>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-                <ul>
-                    <li><a href="#" style="color:white">About</a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-                <ul>
-                    <li><a href="#" style="color:white">About</a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-                <ul>
-                    <li><a href="#" style="color:white">About</a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <br>
-        <div class="row">
             <div class="col-md-12 text-center">
                 <p>
                     <small class="block">&copy; 2020 LP3I COURSE CENTER. All Rights Reserved.</small>
-                    <small class="block">Designed by <a href="https://www.facebook.com/zil.I3lack/" target="_blank">Zilullah Nazir Hadi</a>
+                    <small class="block">Designed by <a href="https://www.facebook.com/zil.I3lack/"
+                            target="_blank">Zilullah Nazir Hadi</a>
                 </p>
                 <p>
                     <ul>
-                        <li><a href="https://web.facebook.com/lcc.praya" style="color:white"><i class="fa fa-facebook">LP3I COURSE CENTER</i></a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white"><i class="fa fa-whatsapp">LP3I COURSE CENTER</i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1fKC1vSEVXVuf3d-fmd5iQ" style="color:white"><i class="fa fa-youtube">LP3I COURSE CENTER</i></a></li>
+                        <li><a href="https://web.facebook.com/lcc.praya" style="color:white"><i
+                                    class="fa fa-facebook">LP3I COURSE CENTER</i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white"><i
+                                    class="fa fa-whatsapp">LP3I COURSE CENTER</i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1fKC1vSEVXVuf3d-fmd5iQ" style="color:white"><i
+                                    class="fa fa-youtube">LP3I COURSE CENTER</i></a></li>
+                        <li><a href="./tentang.php" style="color:white">ABOUT LP3I</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">CONTACT US</a>
+                        </li>
                     </ul>
                 </p>
             </div>

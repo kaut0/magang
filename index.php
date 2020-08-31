@@ -27,9 +27,7 @@
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
                         <img src="assets/gambar/komputer.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
-                            <h5 class="card-title">
-                                <center>KOMPUTER</center>
-                            </h5>
+                            <h5 class="card-title"><center>KOMPUTER</center></h5>
                             <p class="card-text" style="color:black">
                                 <li>1. Ms. Office Profesional</li>
                                 <li>2. Graphic Design / Photography</li>
@@ -49,9 +47,7 @@
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
                         <img src="assets/gambar/accounting.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
-                            <h5 class="card-title">
-                                <center>ACCOUNTING</center>
-                            </h5>
+                            <h5 class="card-title"><center>ACCOUNTING</center></h5>
                             <p class="card-text" style="color:black">
                                 <li>1. Basic Accounting and Finance Management</li>
                                 <li>2. Computer Accounting (Myob)</li>
@@ -69,9 +65,7 @@
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
                         <img src="assets/gambar/english.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
-                            <h5 class="card-title">
-                                <center>ENGLISH</center>
-                            </h5>
+                            <h5 class="card-title"><center>ENGLISH</center></h5>
                             <p class="card-text" style="color:black">
                                 <li>1. English pre-school</li>
                                 <li>2. English for children</li>
@@ -100,33 +94,7 @@
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
                         <img src="assets/gambar/komputer.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
-                            <h5 class="card-title">
-                                <center>ADMINISTRASI PERKANTORAN</center>
-                            </h5>
-                            <p class="card-text" style="color:black">
-                                <li>1. Ms. Office Profesional</li>
-                                <li>2. Graphic Design / Photography</li>
-                                <li>3. Visual Basic Net.</li>
-                                <li>4. Auto CAD</li>
-                                <li>5. Web Design</li>
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="Registrasi.php" class="btn btn-primary">Daftarkan Diri Anda</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm" style="border-radius:20px">
-                        <img src="assets/gambar/english.jpg" width="100%" height="225" style="border-radius:20px">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <center>GROUND STAFF & TOUR TRAVEL</center>
-                            </h5>
+                            <h5 class="card-title"><center>ADMINISTRASI PERKANTORAN</center></h5>
                             <p class="card-text" style="color:black">
                                 <li>1. Ms. Office Profesional</li>
                                 <li>2. Graphic Design / Photography</li>
@@ -146,9 +114,27 @@
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
                         <img src="assets/gambar/english.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
-                            <h5 class="card-title">
-                                <center>TEKNIK PENDINGN</center>
-                            </h5>
+                            <h5 class="card-title"><center>GROUND STAFF & TOUR TRAVEL</center></h5>
+                            <p class="card-text" style="color:black">
+                                <li>1. Ms. Office Profesional</li>
+                                <li>2. Graphic Design / Photography</li>
+                                <li>3. Visual Basic Net.</li>
+                                <li>4. Auto CAD</li>
+                                <li>5. Web Design</li>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="Registrasi.php" class="btn btn-primary">Daftarkan Diri Anda</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" style="border-radius:20px">
+                        <img src="assets/gambar/english.jpg" width="100%" height="225" style="border-radius:20px">
+                        <div class="card-body">
+                            <h5 class="card-title"><center>TEKNIK PENDINGN</center></h5>
                             <p class="card-text" style="color:black">
                                 <li>1. Ms. Office Profesional</li>
                                 <li>2. Graphic Design / Photography</li>

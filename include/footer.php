@@ -7,8 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 foot1">
-                <h3><img src="./assets/gambar/logo.png" height="70px" width="100px"></h3>
-                <p>Lorem ipsum dolor sit</p>
+                <h2><img src="./assets/gambar/logo.png" height="70px" width="100px"></h2>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <ul>

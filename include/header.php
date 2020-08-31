@@ -19,7 +19,7 @@
     <!-- end of hot key -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: cadetblue;">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="./index.php">
                 <div class="logo">
                     <img src="./assets/gambar/logo.png" alt="" srcset="" />
                 </div>

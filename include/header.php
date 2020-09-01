@@ -35,6 +35,9 @@
                         <a class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active" style="font-size:15px">
+                        <a class="nav-link" href="pengumuman.php">Pengumuman <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active" style="font-size:15px">
                         <a class="nav-link" href="Registrasi.php">Registrasi</a>
                     </li>
                     <li class="nav-item dropdown active" style="font-size:15px">

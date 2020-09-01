@@ -9,8 +9,8 @@
             <div class="col-md-12 text-center">
                 <p>
                     <small class="block">&copy; 2020 LP3I COURSE CENTER. All Rights Reserved.</small>
-                    <small class="block">Designed by <a href="https://www.facebook.com/zil.I3lack/"
-                            target="_blank" style="color:white"><u>Zilullah Nazir Hadi</u></a>
+                    <small class="block">Designed by <a href="https://web.facebook.com/lcc.praya"
+                            target="_blank" style="color:white"><u>LP3I COURSE CENTER</u></a>
                 </p>
                 <p>
                     <ul>

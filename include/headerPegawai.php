@@ -54,6 +54,9 @@
                 <li>
                     <a href="./PegawaiFaq.php">Faq</a>
                 </li>
+                <li>
+                    <a href="./PegawaiP.php">Pengumuman</a>
+                </li>
 
                 <li>
                     <a href="./logout.php">Log Out</a>

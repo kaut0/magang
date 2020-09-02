@@ -24,31 +24,10 @@ hr.solid {
 <main role="main">
     <section class="jumbotron text-left text-white gambar">
         <div class="container">
-            <h1>ADMINISTRASI PERKANTORAN</h1>
+            <h1>INFORMATIKA KOMPUTER</h1>
         </div>
     </section>
     <br />
-    <div class="container mb">
-        <div class="container">
-            <div class="row">
-                <div class="card">
-                    <div class="card-header">
-                        <h2>MANAJEMEN PERKANTORAN</h2>
-                    </div>
-                    <div class="card-body rapi">
-                        <ul>
-                            <li>
-                                Program ini dirancang untuk menciptakan profesional muda yang memiliki kemampuan
-                                memadukan ketrampilan dibidang bahasa inggris, ketrampilan dalam korespondensi bisnis,
-                                presentasi, mengadministrasikan dokumen dan memiliki kepribadian seorang sekretaris,
-                                yang dilandasi dengan jiwa entrepreneur dan rasa percaya diri yang tinggi.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container mb">
         <div class="container">
             <div class="row">
@@ -58,23 +37,22 @@ hr.solid {
                     </div>
                     <div class="card-body rapi">
                         <ol>
-                            <li>Mampu berkomonikasi dalam bahasa inggris</li>
-                            <li>Mampu membuat surat dan proposal bisnis baik dalam bahasa Indonesia serta mampu
-                                mengadministrasikannya</li>
-                            <li>Mampu mengadministrasikan seluruh kegiatan aktifitas perkantoran, mengelola system
-                                prosedur kantor dan mempunyai wawasan global</li>
-                            <li>Mampu mengelola, menyimpan dan menemukan kembali dokumen dengan menggunakan system
-                                kearsipan yang berlaku di organisasi</li>
-                            <li>Mampu menggunakan teknologi informasi dan fasilitas komputer untuk memecahkan masalah
-                                bisnis
-                                secara praktis</li>
-                            <li>Memiliki jiwa entrepreneur</li>
-                            <li>Mampu bersikap baik, berpenampilan professional dan memiliki kepercayaan diri tinggi
-                            </li>
+                            <li>Mampu sebagai tenaga web depelopment berbasis internet yang berorienasi pada web dinamis
+                                dengan menggunakan bahasa pemprograman PHP, Java Scrif, HTML, dan MySQL sebagai database
+                                dan
+                                Dreamweaver.</li>
+                            <li>Mampu sebagai tenaga adminstrator jaringan berbasis Windows dan Linux</li>
+                            <li>Mampu berkomunikasi dalam bahasa Inggris</li>
+                            <li>Mampu menggunakan Teknologi Informasi dan Perangkat Komputer untuk menyelesaikan masalah
+                                bisnis secara praktis dan Akurat.</li>
+                            <li>Mampu sebagai tenaga Web designer untuk merancang program multimedia yang diaplikasikan
+                                pada web seperti Corel Draw, Photoshop dan Animasi Flash.</li>
+                            <li>Memiliki jiwa Entrepreneur yang kreatif, Inovatif dan percaya diri</li>
+                            <li>Memiliki Soft Skill sesuai dengan kebutuhan dunia industri.</li>
                         </ol>
-                    </div>
-                    <div class="foto">
-                        <img src="assets/gambar/accounting.jpg" alt="" srcset="">
+                        <div class="foto">
+                            <img src="assets/gambar/accounting.jpg" alt="" srcset="">
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -103,17 +81,17 @@ hr.solid {
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>Computer For Office 1</td>
+                                                <td>Computer for Office</td>
                                                 <td>2 sks</td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
-                                                <td>Business Corespondence</td>
+                                                <td>Design Graphics</td>
                                                 <td>2 sks</td>
                                             </tr>
                                             <tr>
                                                 <td>4</td>
-                                                <td>Typing Tutor / Keyboarding</td>
+                                                <td>Web Design </td>
                                                 <td>2 sks</td>
                                             </tr>
                                             <tr>
@@ -123,13 +101,18 @@ hr.solid {
                                             </tr>
                                             <tr>
                                                 <td>6</td>
-                                                <td>Filling Management</td>
+                                                <td>Design Database</td>
                                                 <td>4 sks</td>
                                             </tr>
                                             <tr>
                                                 <td>7</td>
-                                                <td>Secretarial Duties</td>
-                                                <td>4 sks</td>
+                                                <td>Web Programming</td>
+                                                <td>2 sks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>Local Area Network-1</td>
+                                                <td>2 sks</td>
                                             </tr>
                                             <tr>
                                                 <td></td>
@@ -165,33 +148,33 @@ hr.solid {
                                             </tr>
                                             <tr>
                                                 <td>1</td>
-                                                <td>English 2</td>
+                                                <td>English 1</td>
                                                 <td>4 sks</td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>Computer For Office 2</td>
+                                                <td>Animasi</td>
                                                 <td>2 sks</td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
-                                                <td>Modern Offce Administration</td>
-                                                <td>2 sks</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Business Coresspondences</td>
+                                                <td>PHP Programming-1</td>
                                                 <td>4 sks</td>
                                             </tr>
                                             <tr>
+                                                <td>4</td>
+                                                <td>Tool web Aplication</td>
+                                                <td>2 sks</td>
+                                            </tr>
+                                            <tr>
                                                 <td>5</td>
-                                                <td>Financial Administration & Banking Procedure</td>
+                                                <td>PHP Programming -2</td>
                                                 <td>2 sks</td>
                                             </tr>
                                             <tr>
                                                 <td>6</td>
-                                                <td>Service Excellent</td>
-                                                <td>2 sks</td>
+                                                <td>Local Area Network-2</td>
+                                                <td>4 sks</td>
                                             </tr>
                                             <tr>
                                                 <td>7</td>

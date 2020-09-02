@@ -54,7 +54,7 @@ include('include/headerAdmin.php');
                 </div>
             </div>
         </div>
-
-        <?php
+    </div>
+    <?php
   include('include/footerAdmin.php');
  ?>

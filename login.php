@@ -37,6 +37,14 @@
     </div>
 
 
+    <script>
+    document.onkeyup = function(e) {
+        if (e.ctrlKey && e.which == 77) {
+            setTimeout('self.location.href="./index.php"', 0);
+        }
+    };
+    </script>
+
 </body>
 </script>
 

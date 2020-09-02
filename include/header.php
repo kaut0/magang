@@ -45,10 +45,18 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Pembayaran
                         </a>
+                        <?php
+                        include './proses/koneksi.php';
+                        $fa = "SELECT * FROM no_hp";
+                        $faq = mysqli_query($kon, $fa);
+
+                       while ($data = mysqli_fetch_array($faq)) {
+                           $no = $data['nomor'];                           
+                        ?>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-size:15px">
                             <a class="dropdown-item" href="Pembayaran.php">Pembayaran</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item fa fa-whatsapp" href="https://api.whatsapp.com/send?phone=6285237238085
+                            <a class="dropdown-item fa fa-whatsapp" href="https://api.whatsapp.com/send?phone=<?php echo $no ?>
                                 &text=Pendaftaran%20Melalui%20WhatsApp.%0A
                                 NAMA%20:%20%0A
                                 ALAMAt%20:%20%0A
@@ -60,6 +68,7 @@
                                 JURUSAN%20:%20%0A">Melalui
                                 Whatsapp</a>
                         </div>
+                       <?php } ?>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

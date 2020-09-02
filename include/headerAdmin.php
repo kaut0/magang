@@ -61,6 +61,9 @@
                     <a href="./AP.php">Pengumuman</a>
                 </li>
                 <li>
+                    <a href="./NO.php">NOMOR</a>
+                </li>
+                <li>
                     <a href="./logout.php">Log Out</a>
                 </li>
             </ul>

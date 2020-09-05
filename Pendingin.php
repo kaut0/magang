@@ -78,7 +78,11 @@ hr.solid {
                         </ol>
                     </div>
                     <div class="foto">
-                        <img src="assets/gambar/accounting.jpg" alt="" srcset="">
+                        <img src="assets/gambar/dingin.jpg" alt="" srcset="">
+                    </div>
+                    <br>
+                    <div class="foto">
+                        <img src="assets/gambar/dingin.jpg" alt="" srcset="">
                     </div>
                 </div>
                 <div class="row">

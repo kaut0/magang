@@ -68,7 +68,6 @@
                                 JURUSAN%20:%20%0A">Melalui
                                 Whatsapp</a>
                         </div>
-                       <?php } ?>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -77,9 +76,10 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="faq.php">FAQ</a>
-                            <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6285237238085">Contact
+                            <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=<?php echo $no ?>">Contact
                                 Us</a>
                         </div>
+                        <?php } ?>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="tentang.php">Tentang Kami<span class="sr-only"></span></a>

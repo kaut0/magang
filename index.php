@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
-                        <img src="assets/gambar/komputer.jpg" width="100%" height="225" style="border-radius:20px">
+                        <img src="assets/gambar/perkantoran.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <center>ADMINISTRASI PERKANTORAN</center>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
-                        <img src="assets/gambar/english.jpg" width="100%" height="225" style="border-radius:20px">
+                        <img src="assets/gambar/informatik.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <center>INFORMATIKA KOMPUTER</center>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm" style="border-radius:20px">
-                        <img src="assets/gambar/english.jpg" width="100%" height="225" style="border-radius:20px">
+                        <img src="assets/gambar/dingin.jpg" width="100%" height="225" style="border-radius:20px">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <center>TEKNIK PENDINGN</center>
@@ -157,6 +157,13 @@
             </div>
         </div>
 
+        <!-- <div class="container">
+            <div class="slideshow-container">
+                <img src="assets/gambar/dingin.jpg" alt="" srcset="">
+            </div>
+        </div> -->
+
+        <br>
 
         <div class="container">
             <div class="slideshow-container">

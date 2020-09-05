@@ -51,7 +51,11 @@ hr.solid {
                             <li>Memiliki Soft Skill sesuai dengan kebutuhan dunia industri.</li>
                         </ol>
                         <div class="foto">
-                            <img src="assets/gambar/accounting.jpg" alt="" srcset="">
+                            <img src="assets/gambar/informatik.jpg" alt="" srcset="">
+                        </div>
+                        <br>
+                        <div class="foto">
+                            <img src="assets/gambar/informatik.jpg" alt="" srcset="">
                         </div>
                     </div>
                 </div>

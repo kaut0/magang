@@ -16,13 +16,25 @@
                     <ul>
                         <li><a href="https://web.facebook.com/lcc.praya" style="color:white"><i
                                     class="fa fa-facebook">LP3I COURSE CENTER</i></a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white"><i
+                                    <?php
+                        include './proses/koneksi.php';
+                        $fa = "SELECT * FROM no_hp";
+                        $faq = mysqli_query($kon, $fa);
+
+                       while ($data = mysqli_fetch_array($faq)) {
+                           $no = $data['nomor'];                           
+                        ?>
+                        <li><a href="https://api.whatsapp.com/send?phone=<?php echo $no ?>" style="color:white"><i
                                     class="fa fa-whatsapp">LP3I COURSE CENTER</i></a></li>
+                        
                         <li><a href="https://www.youtube.com/channel/UC1fKC1vSEVXVuf3d-fmd5iQ" style="color:white"><i
                                     class="fa fa-youtube">LP3I COURSE CENTER</i></a></li>
                         <li><a href="./tentang.php" style="color:white">ABOUT LP3I</a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=6285237238085" style="color:white">CONTACT US</a>
+                        <li><a href="https://api.whatsapp.com/send?phone=<?php echo $no ?>" style="color:white">CONTACT US</a>
                         </li>
+                        <?php
+                            }
+                        ?>
                     </ul>
                 </p>
             </div>

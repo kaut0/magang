@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 23, 2020 at 11:10 AM
+-- Generation Time: Sep 07, 2020 at 04:12 AM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.10
 
@@ -57,6 +57,24 @@ INSERT INTO `faq` (`id`, `tanya`, `jawab`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `no_hp`
+--
+
+CREATE TABLE `no_hp` (
+  `id` int(11) NOT NULL,
+  `nomor` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `no_hp`
+--
+
+INSERT INTO `no_hp` (`id`, `nomor`) VALUES
+(1, '6285237238081');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `pembayaran`
 --
 
@@ -71,7 +89,29 @@ CREATE TABLE `pembayaran` (
 --
 
 INSERT INTO `pembayaran` (`nama`, `bukti_tf`, `status`) VALUES
+('rudi', 'bukti/3.PNG', 'Sudah Bayar'),
 ('zil', 'bukti/bukti.jpg', 'Sudah Bayar');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pengumuman`
+--
+
+CREATE TABLE `pengumuman` (
+  `id` int(15) NOT NULL,
+  `judul` varchar(60) NOT NULL,
+  `deskripsi` varchar(255) NOT NULL,
+  `tgl` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `pengumuman`
+--
+
+INSERT INTO `pengumuman` (`id`, `judul`, `deskripsi`, `tgl`) VALUES
+(2, 'makan2', 'bakso goreng adalah bakso yang di goreng', '2020-09-24'),
+(3, 'kok aku', 'ganteng banget sih', '2020-09-24');
 
 -- --------------------------------------------------------
 
@@ -99,7 +139,8 @@ CREATE TABLE `registrasi` (
 INSERT INTO `registrasi` (`no_pendaftaran`, `nama`, `tempat_lahir`, `tgl_lahir`, `alamat`, `no_hp`, `email`, `tgl_daftar`, `jurusan`, `jenis_kelamin`) VALUES
 (13, '', '', '0000-00-00', '', '', '', '2020-08-21', 'Pilih Jurusan', 'Laki-Laki'),
 (15, 'jsojcoa', 'csajcos', '2020-08-22', 'opcsao', 'csjoaj', 'csoajoc', '2020-08-21', 'S1 ILKOM', 'Perempuan'),
-(18, 'zil', 'csaopj', '2020-08-22', 'karang bagu', 'kepo lu bgsat', 'icshaih', '2020-08-21', 'S1 ILKOM', 'Laki-Laki');
+(18, 'zil', 'csaopj', '2020-08-22', 'karang bagu', 'kepo lu bgsat', 'icshaih', '2020-08-21', 'S1 ILKOM', 'Laki-Laki'),
+(19, 'rudi', 'odjwaojd', '2020-08-25', 'doajsdo', 'ndopand', 'dopwjaopdj', '2020-08-25', 'D3 MI', 'Laki-Laki');
 
 -- --------------------------------------------------------
 
@@ -109,10 +150,20 @@ INSERT INTO `registrasi` (`no_pendaftaran`, `nama`, `tempat_lahir`, `tgl_lahir`,
 
 CREATE TABLE `user` (
   `id_user` int(5) NOT NULL,
-  `nama` varchar(50) NOT NULL,
+  `username` varchar(50) NOT NULL,
   `password` varchar(16) NOT NULL,
-  `level` varchar(20) NOT NULL
+  `level` enum('Admin','Pegawai') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id_user`, `username`, `password`, `level`) VALUES
+(1, 'admin', 'admin', 'Admin'),
+(2, 'aku', 'admin', 'Pegawai'),
+(4, 'aku', 'dia', 'Pegawai'),
+(5, 'pass', 'pass', 'Admin');
 
 --
 -- Indexes for dumped tables
@@ -131,10 +182,22 @@ ALTER TABLE `faq`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `no_hp`
+--
+ALTER TABLE `no_hp`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `pembayaran`
 --
 ALTER TABLE `pembayaran`
   ADD PRIMARY KEY (`nama`);
+
+--
+-- Indexes for table `pengumuman`
+--
+ALTER TABLE `pengumuman`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `registrasi`
@@ -167,16 +230,28 @@ ALTER TABLE `faq`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
+-- AUTO_INCREMENT for table `no_hp`
+--
+ALTER TABLE `no_hp`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `pengumuman`
+--
+ALTER TABLE `pengumuman`
+  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT for table `registrasi`
 --
 ALTER TABLE `registrasi`
-  MODIFY `no_pendaftaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `no_pendaftaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(5) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_user` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints for dumped tables

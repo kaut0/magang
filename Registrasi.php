@@ -14,7 +14,7 @@ $(function() {
 <br>
 <div class="form_regis">
     <div class="title">
-        Registration Form
+        PENDAFTARAN
     </div>
     <form action="proses/tambahRegis.php" method="POST" enctype="multipart/form-data">
         <div class="bungkus">

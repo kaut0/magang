@@ -25,6 +25,27 @@ $(function() {
                 </div>
             </div>
             <div class="inputBungkus">
+                <label>Pembayaran</label>
+                <select type="text" name="jenis_bayar" class="form-control" id="select">
+                    <!-- <input type="text" name="jurusan" class="form-control"> -->
+                    <option>Pilih Jenis Pembayaran</option>
+                    <option value="DAFTAR BARU">DAFTAR BARU</option>
+                    <option value="SPP">SPP</option>
+                </select>
+            </div>
+            <div class="inputBungkus">
+                <label>Jurusan</label>
+                <select type="text" name="jurusan" class="form-control" id="select">
+                    <!-- <input type="text" name="jurusan" class="form-control"> -->
+                    <option>Pilih Jurusan</option>
+                    <option value="KOMPUTER">KOMPUTER</option>
+                    <option value="ENGLISH">ENGLISH</option>
+                    <option value="ACCOUNTING">ACCOUNTING</option>
+                    <option value="GROUND STAFF & TOUR TRAVELING">GROUND STAFF & TOUR TRAVELING</option>
+                    <option value="TEKNIK PENDINGIN">TEKNIK PENDINGIN</option>
+                </select>
+            </div>
+            <div class="inputBungkus">
                 <label for="fname">Bukti Pembayaran</label>
                 <input type="file" id="fname" name="bukti">
             </div>

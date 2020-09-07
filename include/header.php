@@ -37,15 +37,7 @@
                     <li class="nav-item active" style="font-size:15px">
                         <a class="nav-link" href="pengumuman.php">Pengumuman <span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item active" style="font-size:15px">
-                        <a class="nav-link" href="Registrasi.php">Registrasi</a>
-                    </li>
-                    <li class="nav-item dropdown active" style="font-size:15px">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Pembayaran
-                        </a>
-                        <?php
+                    <?php
                         include './proses/koneksi.php';
                         $fa = "SELECT * FROM no_hp";
                         $faq = mysqli_query($kon, $fa);
@@ -53,19 +45,31 @@
                        while ($data = mysqli_fetch_array($faq)) {
                            $no = $data['nomor'];                           
                         ?>
+                     <li class="nav-item dropdown active" style="font-size:15px">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pendaftaran
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-size:15px">
+                            <a class="dropdown-item" href="Registrasi.php">Pendaftaran</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item fa fa-whatsapp"
+                                href="https://api.whatsapp.com/send?phone=<?php echo $no ?>
+                                &text=Pendaftaran%20Melalui%20WhatsApp.%0ANAMA%20:%20%0AALAMAt%20:%20%0ANO.HANDPHONE%20:%20%0AE-Mail%20:%20%0ATEMPAT%20LAHIR%20:%20%0ATANGGAL%20LAHIR%20:%20%0AJenis%20KELAMIN%20:%20%0AJURUSAN%20:%20%0A">Melalui
+                                Whatsapp</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown active" style="font-size:15px">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pembayaran
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-size:15px">
                             <a class="dropdown-item" href="Pembayaran.php">Pembayaran</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item fa fa-whatsapp" href="https://api.whatsapp.com/send?phone=<?php echo $no ?>
-                                &text=Pendaftaran%20Melalui%20WhatsApp.%0A
-                                NAMA%20:%20%0A
-                                ALAMAt%20:%20%0A
-                                NO.HANDPHONE%20:%20%0A
-                                E-Mail%20:%20%0A
-                                TEMPAT%20LAHIR%20:%20%0A
-                                TANGGAL%20LAHIR%20:%20%0A
-                                Jenis%20KELAMIN%20:%20%0A
-                                JURUSAN%20:%20%0A">Melalui
+                            <a class="dropdown-item fa fa-whatsapp"
+                                href="https://api.whatsapp.com/send?phone=<?php echo $no ?>
+                                &text=Pendaftaran%20Melalui%20WhatsApp.%0ANAMA%20:%20%0AALAMAt%20:%20%0ANO.HANDPHONE%20:%20%0AE-Mail%20:%20%0ATEMPAT%20LAHIR%20:%20%0ATANGGAL%20LAHIR%20:%20%0AJenis%20KELAMIN%20:%20%0AJURUSAN%20:%20%0A">Melalui
                                 Whatsapp</a>
                         </div>
                     </li>
@@ -76,7 +80,8 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="faq.php">FAQ</a>
-                            <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=<?php echo $no ?>">Contact
+                            <a class="dropdown-item"
+                                href="https://api.whatsapp.com/send?phone=<?php echo $no ?>">Contact
                                 Us</a>
                         </div>
                         <?php } ?>

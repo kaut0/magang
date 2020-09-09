@@ -62,7 +62,7 @@ include ('include/headerAdmin.php');
                 <td><?php echo $pecah['jurusan'] ?></td>
                 <td><?php echo $pecah['jenis_bayar'] ?></td>
                 <td>
-                    <a href="proses/hapusBukti.php?nama=<?php echo $pecah['nama'];?>" type="button"
+                    <a href="proses/hapusBayar.php?nama=<?php echo $pecah['nama'];?>" type="button"
                         class="btn btn-danger btn-sm" onclick="return confirm('Yakin Hapus?')">Hapus</a>
                     <a href="AdminDetailPembayaran.php?nama=<?php echo $pecah['nama'];?>" type="button"
                         class="btn btn-warning btn-sm">Detail</a>

@@ -5,6 +5,7 @@ include ("koneksi.php");
 
 $judul = $_POST['judul'];
 $deskripsi = $_POST['deskripsi'];
+
 $tgl = date("Y-m-d H:i:s");
 
 $simpan = "INSERT INTO pengumuman (id, judul, deskripsi, tgl) VALUES (null, '$judul', '$deskripsi', '$tgl')";

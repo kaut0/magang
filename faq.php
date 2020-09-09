@@ -12,9 +12,26 @@
 
 <center>
     <h2>FAQ</h2>
+    <div class="row ">
+        <div class="col-md-4">
+            <form action="faq.php" method="get">
+                <label>Cari :</label>
+                <input type="text" name="cari">
+                <input type="submit" value="Cari">
+            </form>
+            <?php 
+        if(isset($_GET['cari'])){
+            $cari = $_GET['cari'];
+            echo "<b>Hasil pencariaan : ".$cari."</b>";
+        }
+        
+    ?>
+        </div>
+    </div>
+    </div>
+
 </center>
 <?php
-   
 
     $page = (isset($_GET['page']))? $_GET['page'] : 1;
 					
@@ -26,7 +43,16 @@
 					// Buat query untuk menampilkan data faq sesuai limit yang ditentukan
 	$sql = mysqli_query($kon, "SELECT * FROM faq ORDER BY id DESC LIMIT ".$limit_start.",".$limit);
 					
-	$no = $limit_start + 1; // Untuk penomoran tabel
+    $no = $limit_start + 1; // Untuk penomoran tabel
+    
+    if(isset($_GET['cari'])){
+        $cari = $_GET['cari'];
+        $sql = mysqli_query($kon, "select * from faq where tanya like '%".$cari."%'");				
+    }else{
+        $sql;		
+    }
+
+
 	while($data = mysqli_fetch_array($sql)){
 
       $id = $data["id"];

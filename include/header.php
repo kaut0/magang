@@ -37,6 +37,9 @@
                     <li class="nav-item active" style="font-size:15px">
                         <a class="nav-link" href="pengumuman.php">Pengumuman <span class="sr-only"></span></a>
                     </li>
+                    <li class="nav-item active" style="font-size:15px">
+                        <a class="nav-link" href="promosi.php">Promosi <span class="sr-only"></span></a>
+                    </li>
                     <?php
                         include './proses/koneksi.php';
                         $fa = "SELECT * FROM no_hp";

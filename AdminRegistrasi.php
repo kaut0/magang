@@ -3,40 +3,40 @@ include ("proses/koneksi.php");
 include ('include/headerAdmin.php');
 ?>
 
-<div class="container">
-    <h4 style="text-align: center">Registrasi</h4>
-    <form action="AdminRegistrasi.php" method="get">
-        <label>Cari :</label>
-        <input type="text" name="cari">
-        <input type="submit" value="Cari">
-    </form>
-    <?php 
+<h4 style="text-align: center">Registrasi</h4>
+<form action="AdminRegistrasi.php" method="get">
+    <label>Cari :</label>
+    <input type="text" name="cari">
+    <input type="submit" value="Cari">
+</form>
+<?php 
         if(isset($_GET['cari'])){
             $cari = $_GET['cari'];
             echo "<b>Hasil pencariaan : ".$cari."</b>";
         }
     ?>
-    <div class="table-responsive">
-        <!-- <button type="button" class="btn btn-success"> -->
-        <!-- Tambah Mahasiswa -->
-        </button>
-        <table class="table table-bordered table-hover table-striped">
-            <thead>
-                <tr>
-                    <th>No.</th>
-                    <th>nama</th>
-                    <th>Alamat</th>
-                    <th>Tempat Lahir</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Jurusan</th>
-                    <th>Tanggal Daftar</th>
-                    <th>No Handphone</th>
-                    <th>E-Mail</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
+<div class="table-responsive">
+    <!-- <button type="button" class="btn btn-success"> -->
+    <!-- Tambah Mahasiswa -->
+    </button>
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>nama</th>
+                <th>Alamat</th>
+                <th>Tempat Lahir</th>
+                <th>Tanggal Lahir</th>
+                <th>Jenis Kelamin</th>
+                <th>Jurusan</th>
+                <th>Tanggal Daftar</th>
+                <th>No Handphone</th>
+                <th>E-Mail</th>
+                <th>Perintah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
 
                    
                 //page
@@ -59,32 +59,34 @@ include ('include/headerAdmin.php');
                     $no = 1;
                     foreach ($faq as $f){
                         ?>
-                <tr>
-                    <td><?php echo $no ?></td>
-                    <td><?php echo $f['nama'];?></td>
-                    <td><?php echo $f['alamat'];?></td>
-                    <td><?php echo $f['tempat_lahir'];?></td>
-                    <td><?php echo $f['tgl_lahir'];?></td>
-                    <td><?php echo $f['jenis_kelamin'];?></td>
-                    <td><?php echo $f['jurusan'];?></td>
-                    <td><?php echo $f['tgl_daftar'];?></td>
-                    <td><?php echo $f['no_hp'];?></td>
-                    <td><?php echo $f['email'];?></td>
-                </tr>
-                <?php
+            <tr>
+                <td><?php echo $no ?></td>
+                <td><?php echo $f['nama'];?></td>
+                <td><?php echo $f['alamat'];?></td>
+                <td><?php echo $f['tempat_lahir'];?></td>
+                <td><?php echo $f['tgl_lahir'];?></td>
+                <td><?php echo $f['jenis_kelamin'];?></td>
+                <td><?php echo $f['jurusan'];?></td>
+                <td><?php echo $f['tgl_daftar'];?></td>
+                <td><?php echo $f['no_hp'];?></td>
+                <td><?php echo $f['email'];?></td>
+                <td>
+                    <a href="proses/hapusRegis.php?no_pendaftaran=<?php echo $f['no_pendaftaran'];?>" type="button"
+                        class="btn btn-danger btn-sm" onclick="return confirm('Yakin Hapus?')">Hapus</a>
+                </td>
+            </tr>
+            <?php
                         $no+=1;
                     }
                     ?>
-            </tbody>
-        </table>
-        <div class="">
-            <?php for ($i=1; $i<=$pages ; $i++){ ?>
-            <a href="?halaman=<?php echo $i; ?>"><?php echo $i; ?></a>
-            <?php } ?>
-        </div>
+        </tbody>
+    </table>
+    <div class="">
+        <?php for ($i=1; $i<=$pages ; $i++){ ?>
+        <a href="?halaman=<?php echo $i; ?>"><?php echo $i; ?></a>
+        <?php } ?>
     </div>
 </div>
-
 <?php
 include('include/footerAdmin.php');
 ?>

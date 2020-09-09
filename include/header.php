@@ -72,7 +72,7 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item fa fa-whatsapp"
                                 href="https://api.whatsapp.com/send?phone=<?php echo $no ?>
-                                &text=Pendaftaran%20Melalui%20WhatsApp.%0ANAMA%20:%20%0AALAMAt%20:%20%0ANO.HANDPHONE%20:%20%0AE-Mail%20:%20%0ATEMPAT%20LAHIR%20:%20%0ATANGGAL%20LAHIR%20:%20%0AJenis%20KELAMIN%20:%20%0AJURUSAN%20:%20%0A">Melalui
+                                &text=Pembayaran%20Melalui%20WhatsApp.%0ANAMA%20:%20%0AJENIS%20PEMBAYARAN%20:%20%0AJURUSAN%20:%20%0ABUKTI%20:%20%0A">Melalui
                                 Whatsapp</a>
                         </div>
                     </li>

@@ -49,7 +49,7 @@
             <div class="card-body">
                 <h5 class="card-title"><?php echo "$judul"?></h5>
                 <p class="card-text" style="color:black"><?php echo $deskripsi; ?></p>
-                <img class="card-img-bottom" src="<?php echo $url_gambar; ?>">
+                <img class="card-img-bottom" src="<?php echo $url_gambar; ?>" style="max-height:700px; max-width:700px;">
             </div>
         </div>
     </div>
